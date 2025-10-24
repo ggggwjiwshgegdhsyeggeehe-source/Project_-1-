@@ -6,6 +6,11 @@ consent = str(input("Do you want to know your age in days ? "))
 if consent == "okay" :
     age = float(input("Please Enter Your Age : "))
     year = age * 365
-    print(year)
+    month = year / 12
+    hour = year * 24
+    print('year :',year)
+    print('month : ',month)
+    print('hour : ',hour)
 else :
+
     print("I,m Sorry!")
